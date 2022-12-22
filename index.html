@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <form action="/action_page.php" class="need-validation-border p-4 mb-4 rounded bg-info">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="input-group mt-3 mb-3">
+                        <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user"></i></span>
+                        <div class="form-floating">
+            <input type="text" class="form-control" id="name" placeholder="Username"  >
+            <label for="name">First Name</label>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-6">
+                    <div class="input-group mt-3 mb-3">
+                        <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user"></i></span>
+                        <div class="form-floating">
+            <input type="text" class="form-control" id="name" placeholder="Username"  >
+            <label for="name">Last Name</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-md-6">
+                <div class="input-group mt-3 mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-envelope"></i></span>
+                    <div class="form-floating">
+        <input type="email" class="form-control" id="Email" placeholder="Email"  >
+        <label for="Email">Email</label>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="input-group mt-3 mb-3">
+                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-envelope"></i></span>
+                <div class="form-floating">
+    <input type="email" class="form-control" id="Email" placeholder="Email"  >
+    <label for="Email">Confirm Your Email</label>
+            </div>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="input-group mt-3 mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-phone"></i></span>
+                    <div class="form-floating">
+        <input type="number" class="form-control" id="number" placeholder="mobile number"  >
+        <label for="number">Mobile no</label>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="input-group mt-3 mb-3">
+                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-address-card"></i>
+                </span>
+                <div class="form-floating">
+    <input type="text" class="form-control" id="adress" placeholder="adress"  >
+    <label for="adress">Address</label>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="" class="mt-3">Gender </label>
+            <div class="form-check mt-2">
+                <input type="radio" name="gender" id="gender" class="form-check-input">
+                <label for="gender" class="form-check-label">Male</label>
+            </div>
+            <div class="form-check mt-2">
+                <input type="radio" name="gender" id="gender" class="form-check-input">
+                <label for="gender" class="form-check-label">Female</label>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="" class="mt-3">Langauges known</label>
+            <div class="form-check mt-2">
+                <input type="checkbox" id="flexcheckindeterminate" class="form-check-input">
+                <label for="flexcheckindeterminate" class="form-check-label">tamil</label>
+            </div>
+            <div class="form-check mt-2">
+                <input type="checkbox" id="flexcheckindeterminate" class="form-check-input">
+                <label for="flexcheckindeterminate" class="form-check-label">English</label>
+            </div>
+        </div>
+       <div class="row">
+        <div class="col-md-6">
+            <label for="" class="mt-3">Select Your Degree</label>
+            <div class="form-check">
+            <input type="radio" class="form-check-input" id="degree" name="degree">
+            <label for="degree" class="form-label-check">B:E-CSE</label>
+        </div>
+        <div class="form-check">
+            <input type="radio" class="form-check-input" id="degree" name="degree">
+            <label for="degree" class="form-label-check">B:E-MECH</label>
+        </div>
+        <div class="form-check">
+            <input type="radio" class="form-check-input" id="degree" name="degree">
+            <label for="degree" class="form-label-check">B:E-civil</label>
+        </div>
+        <div class="form-check">
+            <input type="radio" class="form-check-input" id="degree" name="degree">
+            <label for="degree" class="form-label-check">B:E-EEE</label>
+        </div>
+        <div class="form-check">
+            <input type="radio" class="form-check-input" id="degree" name="degree">
+            <label for="degree" class="form-label-check">B:E-ECE</label>
+        </div>
+        </div>
+        <div class="col-md-6">
+            <label for="" class="mt-3">GRAUDATE</label>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="graduate" name="graduate">
+                <label for="graduate" class="form-check-label">Ug</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="graduate" name="graduate">
+                <label for="graduate" class="form-check-label">Pg</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p class="mt-4">HANDICAP</p>
+                <div class="form-check form-switch mt-1" >
+                    <input type="checkbox" class="form-check-input" role="switch" id="flexSwtichCheckDefault">
+                    <label for="flexSwtichCheckDefault" class="form-check-label">yes</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="" class="mt-3 text-white"> DISTRIC</label>
+                <select class="form-select form-select-sm mt-3 w-50" aria-label=".form-select-sm example" name="" id="">
+                   <option selected value="">SELECT YOUR DISTRIC</option>
+                   <option value="1">thanjavur</option>
+                   <option value="1">trichy</option>
+                   <option value="1">chennai</option>
+                   <option value="1">coimbatore</option>
+                   
+                </select>
+            </div>
+        </div>
+       </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-secondary mt-4">sumbit</button>
+        </form>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+</body>
+</html>
